@@ -2,6 +2,8 @@
 
 **Download for Windows**: [legit.exe](https://github.com/tathya1001/legit/releases/download/v1.0.0/legit.exe)
 
+**Full list of commands**: [https://legitweb.vercel.app/](https://legitweb.vercel.app/)
+
 ---
 
 Welcome to Legit! This is a lightweight, command-line version control system built in C++ that mimics some of the basic functionalities of Git.
