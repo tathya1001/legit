@@ -17,6 +17,21 @@ void cmdInit()
     writeFile(refsDir + "/master", "");
     writeFile(headFile, "ref: " + refsDir + "/master");
     cout << "Initialized empty legit repo in " << repoDir << "/" << endl;
+
+    cout << R"(
+######                    #####
+  ###                  ###   ###   ###
+  ###                 ##      ##    #    ##
+  ###          ##    ###       #        ####
+  ###       ###  ##  ##           ####   ##
+  ###       ##   ### ##    ######  ###   ##
+  ###      ######### ##      ###   ###   ##
+  ###    # ###       ###     ###   ###   ##
+  ###    #####    ##  ##     ###   ###   ##
+  ###   ### ###   #   ###    ###   ###   ## ##
+##########   #####      ########  #####  ####
+)"
+         << endl;
 }
 
 void cmdAdd(const string &path)
